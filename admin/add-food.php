@@ -174,7 +174,9 @@
                     // image is selected 
 
                     //1. rename the image 
-                    $ext = end(explode('.',$image_name));
+                    $temp = explode('.', $image_name);
+                    $ext = end($temp); // Now end() receives a variable
+                    
 
                     // create new name from here
                     $image_name = "Food_manu".rand(0000,9999).".".$ext;
@@ -247,6 +249,7 @@
             {
                 // falied to insert data 
                 $_SESSION['add']=="<div class='error'>Failed to Added Food</div>";
+                
                 header('location:'.SITEURL.'admin/manage-food.php');
             }
 
