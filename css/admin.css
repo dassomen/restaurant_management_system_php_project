@@ -122,6 +122,10 @@ table tr td{
     background-color:#e84393;
     color: white;
  }
+ a{
+   text-decoration: none;
+   color: black;
+ }
 
  /* css for login page  */
  .login{
