@@ -1,0 +1,145 @@
+/* 
+    author:Somen Das
+    Theme:restaurant manegment system
+    
+ */
+ * {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+ }
+
+ .text-center{
+    text-align: center;
+ }
+ .clearfix{
+    float: none;
+    clear: both;
+ }
+
+ /* css for menu */
+
+ .menu{
+    border-bottom: 1px solid gray;
+ }
+
+ .menu ul{
+    list-style-type: none;
+ }
+ .menu ul li{
+    display: inline;
+    padding: 1%;
+ }
+ .menu ul li a{
+    text-decoration:none;
+    font-weight: bold;
+    color:#e84393;
+ }
+ .menu ul li a:hover{
+   color: red;
+ }
+
+
+ /* css for main cointant */
+
+ .main-contant{
+    
+    background-color: #f1f2f6;
+    padding: 3% 0;
+ }
+ .col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+ }
+.tbl-full{
+   width: 100%;
+}
+.tbl-30{
+   width: 30%;
+}
+table tr th{
+   border-bottom: 1px solid black;
+   padding: 1%;
+   text-align: left;
+}
+table tr td{
+   padding: 1%;
+}
+.btn-primary{
+   background-color: #1e90ff;
+   padding: 1%;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+.btn-primary:hover{
+   background-color:  darkblue;
+}
+
+.btn-secondary{
+   background-color: rgb(56, 223, 56);
+   padding: 1%;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+.btn-secondary:hover{
+   background-color:  darkgreen;
+}
+
+.btn-denger{
+   background-color: red;
+   padding: 1%;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+.btn-denger:hover{
+   background-color: darkred;
+}
+.success{
+   color: #2ed273;
+}
+.error{
+   color: #ff4757;
+}
+
+
+
+
+
+ /* css for footer */
+ .footer{
+    background-color:#e84393;
+    color: white;
+ }
+
+ /* css for login page  */
+ .login{
+   /* border: 1px solid gray;
+   width: 20%;
+   margin: 10% auto;
+   padding: 2%; */
+
+
+   border: 1px solid #ddd;
+   width: 25%;
+   margin: 10% auto;
+   padding: 3%;
+   background-color: #fff;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+ }
+
+
+
+
